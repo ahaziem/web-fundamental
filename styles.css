@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+main h2 {
+ font-size: 2rem;
+ text-align: center;
+ margin: 1%
+}
+
+main h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 7%;
+}
+
+img {
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.symbols {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+     padding: 5%;
+     height: 11vh;
+     gap: 1%;
+}
+
+.fa-symbols {
+     gap: 100%;
+}
+
+.mobilephone {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.9;
+
+}
+
+.peguim {
+    line-height: 2.0;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 3%;
+}
+.peguim1 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:left;
+    align-items: center;
+    line-height: 3.0;
+    justify-content: flex-start;
+}
+.peguim2 {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:right;
+    align-items:center;
+    line-height: 3.0;
+    justify-content: flex-end;
+}
+
+.header {
+       display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3%;
+}
+
+header button {
+       background-color: #FEFDF7;
+       padding: 15px;
+       border-radius: 10px;
+        color: #394165;
+}
+
+
+main {
+    background-color: #FEFDF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background-color: #FEFDF7;
+}
+
+header h1 {
+    color: #394165;
+}
+
+
+main h2,h3 {
+    color: #1BB9F1;
+}
+
+
+footer ul li {
+background-color: #FFFCDD;
+display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+padding: 20px;
+font-weight: bold;
+color: #394167;
+}
+
+.get-dadvice {
+    background-color: #394165;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.sign-up {
+    background-color: #394165;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
